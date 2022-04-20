@@ -75,7 +75,17 @@ The details of the insatlled PHP is displayed below:
 
 
 ___
-### **TASK 4: CREATING A VIRTUAL HOST FOR A WEBSITE USING APACHE**
+### **TASK 4 — CONFIGURING NGINX TO USE PHP PROCESSOR**
 ___
 
 The following were the commands run:
+
+`sudo mkdir /var/www/projectLEMP`
+
+I then assigned ownership of the directory to my user using the command
+
+`  sudo chown -R $USER:$USER /var/www/projectLEMP`
+
+Then, I created and opened, using Nano, a new configuration file in Nginx’s sites-available directory. I named it projectLEMP.conf. Thereafrer, I pasted the following text in the opened file:
+
+![Configuration File in Nano](./images/configuration-file-in-nano.PNG "Configuration File in Nano")
