@@ -12,3 +12,6 @@ I ran the following commands on my virtual machine to update a list of packages 
 `sudo apt install ngnix`
 
 `sudo systemctl status ngnix`
+
+The outcome is depicted in the image below:
+![Nginx Status](./images/active_nginx.PNG 'Nginx Status')
