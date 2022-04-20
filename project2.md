@@ -11,4 +11,4 @@ I ran the following commands on my virtual machine to update a list of packages 
 
 `sudo apt install ngnix`
 
-`sudo apt update ngnix`
+`sudo systemctl status ngnix`
