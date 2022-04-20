@@ -15,3 +15,7 @@ I ran the following commands on my virtual machine to update a list of packages 
 
 The outcome is depicted in the image below:
 ![Nginx Status](./images/active_nginx.PNG 'Nginx Status')
+
+A new rule was then added to the EC2 configuration to open inbound connection through port 80, shown below:
+
+![Inbound Connection Permitted](./images/Inbound-connection-permitted.PNG 'Inbound Connection Permitted')
