@@ -53,3 +53,29 @@ Thereafter, I logged in to the MySQL console by running this command:
 The outcome is shown below:
 
 ![MySQL Console](./images/mysql-console.PNG 'MySQL Console')
+
+
+___
+### **TASK 3: INSTALLING PHP**
+___
+
+
+I ran the command below to simultaneously install phb-fpm and php-mysql:
+
+`sudo apt install php-fpm php-mysql`
+
+
+Thereafter, the command below was used to check my PHP version:
+
+`php -v`
+
+The details of the insatlled PHP is displayed below:
+
+![PHP Version Installed](./images/php-installation.PNG 'PHP Version Installed')
+
+
+___
+### **TASK 4: CREATING A VIRTUAL HOST FOR A WEBSITE USING APACHE**
+___
+
+The following were the commands run:
