@@ -155,3 +155,10 @@ After exiting the mysql console, I logged in again with my password and I ran th
 The output is shown below:
 
 ![MySQL Database](./images/mysql-database.PNG 'MySQL Database')
+
+After, I inserted some content into my data base, as shown below:
+
+![MySQL Updated Database](./images/content-in-database.PNG 'MySQL Updated Database')
+
+I then exited the mysql console
+
