@@ -89,3 +89,26 @@ I then assigned ownership of the directory to my user using the command
 Then, I created and opened, using Nano, a new configuration file in Nginx’s sites-available directory. I named it projectLEMP.conf. Thereafrer, I pasted the following text in the opened file:
 
 ![Configuration File in Nano](./images/configuration-file-in-nano.PNG "Configuration File in Nano")
+
+
+Next, I activated the configuration by linking to the config file from Nginx’s sites-enabled directory:
+
+`sudo ln -s /etc/nginx/sites-available/projectLEMP /etc/nginx/sites-enabled/`
+
+The configuration was tested for syntax error with `sudo nginx -t`  and it was error free. This is shown below:
+
+![Configuration Test Result](./images/nginx-config-test.PNG "Configuration Test Result")
+
+I ran the following command to complete my configuration:
+
+`sudo unlink /etc/nginx/sites-enabled/default`
+`sudo systemctl reload nginx`
+
+I created an index.html file in the web root using this command:
+
+`sudo echo 'Hello LEMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectLEMP/index.html`
+
+From from browser, I opened my website URL and the result returned is shown below:
+
+![Website URL Result](./images/website-url-result.PNG "Website URL Result")
+
