@@ -140,3 +140,18 @@ ___
 ### **TASK 6: RETRIEVING DATA FROM MYSQL DATABASE WITH PHP (CONTINUED)**
 ---
 
+I created a database named **example_database** and a user named **example_user** and secured it using the following commands:
+
+`mysql> CREATE DATABASE example_database;`
+
+`mysql>  CREATE USER 'example_user'@'%' IDENTIFIED WITH mysql_native_password BY 'password'`
+
+`mysql> GRANT ALL ON example_database.* TO 'example_user'@'%';`
+
+After exiting the mysql console, I logged in again with my password and I ran the command below to show the database:
+
+`mysql> SHOW DATABASES;`
+
+The output is shown below:
+
+![MySQL Database](./images/mysql-database.PNG 'MySQL Database')
