@@ -112,3 +112,16 @@ From from browser, I opened my website URL and the result returned is shown belo
 
 ![Website URL Result](./images/website-url-result.PNG "Website URL Result")
 
+
+___
+### **TASK 5: TESTING PHP WITH NGINX**
+---
+
+ I created a new file named info.php inside the custom web root folder using the command:
+
+`sudo nano /var/www/projectLEMP/info.php` and I opened the file and pasted in the text below:
+
+```
+<?php
+phpinfo();
+```
