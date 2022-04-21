@@ -162,3 +162,20 @@ After, I inserted some content into my data base, as shown below:
 
 I then exited the mysql console
 
+
+Therafter, I created a PHP script that will connect to MySQL and query for my content using Nano editor with the following command:
+
+`nano /var/www/projectLEMP/todo_list.php`
+
+
+
+The contect that I pasted in the script is shown below:
+
+![PHP Script Content](./images/script-content.PNG 'PHP Script Content')
+
+Accessing the page on my web browser, the result is shown below:
+
+![Web Browser Result](./images/web-browser-result.PNG "SWeb Browser Result")
+
+
+## **This is the end of Project 2.**
