@@ -125,3 +125,18 @@ ___
 <?php
 phpinfo();
 ```
+
+Saving and reloading the page on my browser gave the following output:
+
+![Server Info](./images/SERVER-INFO.PNG "Server Info")
+
+
+The page above was then removed by running this command:
+
+`sudo rm /var/www/projectLEMP/info.php`
+
+
+___
+### **TASK 6: RETRIEVING DATA FROM MYSQL DATABASE WITH PHP (CONTINUED)**
+---
+
